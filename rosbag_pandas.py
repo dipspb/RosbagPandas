@@ -9,9 +9,9 @@ import yaml
 import pandas as pd
 import numpy as np
 
-import pyrosbag as rosbag
-import pyros as rospy
-from pyros.message import get_message_class
+import rosbag
+import rospy
+from roslib.message import get_message_class
 
 
 def bag_to_dataframe(bag_name, include=None, exclude=None, parse_header=False, seconds=False):
