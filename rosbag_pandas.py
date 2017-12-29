@@ -9,8 +9,8 @@ import yaml
 import pandas as pd
 import numpy as np
 
-import rosbag
-import rospy
+import pyrosbag as rosbag
+import pyros as rospy
 from roslib.message import get_message_class
 
 
